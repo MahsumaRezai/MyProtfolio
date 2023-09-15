@@ -1,0 +1,70 @@
+.head {
+    background: #313131;
+    width: 100%;
+    height: 800px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.lists {
+    background: black;
+    box-shadow: 0px 2px 0px gray;
+    position: fixed;
+    width: 100%;
+
+}
+.list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;padding-right: 20px;
+    padding-left: 40px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px
+}
+
+.text {
+    color: white;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-top: 330px;
+    color: white
+
+
+}
+
+
+.content h1  {
+    color: white;
+    font-size: 50px
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;  
+}
+.title h3  {
+    font-size: 30px
+}
