@@ -6,9 +6,7 @@ import About from "./Pages/About";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
 
-
 function App(props) {
-
     return (
         <Fragment>
             <Head />
