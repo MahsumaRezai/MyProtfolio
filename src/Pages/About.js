@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import classes from './Pages.module.css';
-import Profile from "./Profile";
-import Text from './Text'
-import Skills from "./Skill";
+import classes from '../Pages/About/Pages.module.css';
+import Profile from "./About/Profile";
+import Text from './About/Text'
+import Skills from "./About/Skill";
 
 const About = (props) => {
     return (
