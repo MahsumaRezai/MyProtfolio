@@ -1,13 +1,13 @@
 import { Fragment } from "react";
-import Works from '../Pages/Works/Work'
 
-const Work = (props) => {
+const Works = (props) => {
     return (
         <Fragment>
             <div>
-                <Works />
+                <h1>PORTFOLIO</h1>
             </div>
+
         </Fragment>
     )
 }
-export default Work;
+export default Works;
