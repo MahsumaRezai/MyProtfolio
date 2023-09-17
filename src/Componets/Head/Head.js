@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Link } from 'react-router-dom';
 import classes from './Head.module.css';
 import Content from "./Content";
-import React  from 'react'
+import React from 'react'
 
 
 const Head = (props) => {
@@ -13,7 +13,7 @@ const Head = (props) => {
                     <ul className={classes.list}>
                         <li><Link to='/HOME' className={classes.link}>HOME</Link></li>
                         <li><Link to='/ABOUT' className={classes.link}>ABOUT</Link></li>
-                        <li><Link to='/WORKS' className={classes.link}>WORKS</Link></li>
+                        <li><Link to='/WORK' className={classes.link}>WORKS</Link></li>
                         <li><Link to='/CONTACT' className={classes.link}>CONTACT</Link></li>
                     </ul>
                     <div className={classes.text}>
@@ -21,7 +21,7 @@ const Head = (props) => {
                     </div>
 
                 </div>
-                <Content/>
+                <Content />
 
 
 

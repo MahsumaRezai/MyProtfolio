@@ -19,7 +19,7 @@ function App(props) {
                 <About />
             </Route>
 
-            <Route path='/WROK'>
+            <Route path='/WORK'>
                 <Work />
             </Route>
 
