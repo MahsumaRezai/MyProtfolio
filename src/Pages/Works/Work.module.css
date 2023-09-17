@@ -17,3 +17,28 @@
     font-size: 20px;
     font-weight: bold;
 }
+.parject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+    gap: 20px
+}
+.card {
+    background:#313131;
+    width: fit-content;
+    padding: 20px 20px 100px 20px;
+}
+.imgone {
+    width: 400px;
+    transition: transform 500ms;
+    border: 1px solid white
+
+}
+.warrper {
+    overflow: hidden;
+}
+.warrper:hover .imgone {
+    transform: scale(1.3)
+}
