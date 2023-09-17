@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import classes from './Pages.module.css';
+import React from 'react'
 
 
 const Skills = (props) => {

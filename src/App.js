@@ -5,6 +5,7 @@ import Head from "./Componets/Head/Head";
 import About from "./Pages/About";
 import Work from "./Pages/Work";
 import Contact from "./Pages/Contact";
+import React  from 'react'
 
 function App(props) {
     return (

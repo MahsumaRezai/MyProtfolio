@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import classes from './Head.module.css';
+import React  from 'react'
 
 
 const Content = (props) => {

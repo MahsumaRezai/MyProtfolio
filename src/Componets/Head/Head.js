@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Link } from 'react-router-dom';
 import classes from './Head.module.css';
 import Content from "./Content";
+import React  from 'react'
 
 
 const Head = (props) => {

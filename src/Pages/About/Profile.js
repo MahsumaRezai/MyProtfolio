@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import img from './image/profile.jpg';
 import classes from './Pages.module.css';
+import React  from 'react'
 
 const name = ["Masoumeh", "Developer & Designer", "mahsuma.rezai8@gmail"];
 
