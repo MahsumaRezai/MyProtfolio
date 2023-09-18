@@ -11,7 +11,7 @@ function App(props) {
     return (
         <Fragment>
             <Head />
-            <Route path='/HOME'>
+            <Route path='/' exact>
                 <Home />
             </Route>
 

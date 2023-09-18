@@ -13,9 +13,8 @@ const Project = (props) => {
                     <div className={classes.warrper}>
                         <img src={img1} alt="" className={classes.imgone} />
                     </div>
-                    <div>
-                        <button>Read More</button>
-
+                    <div className={classes.button}>
+                        <button className={classes.btn}>Read More</button>
                     </div>
 
                 </Card>

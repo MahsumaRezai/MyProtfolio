@@ -11,7 +11,7 @@ const Head = (props) => {
             <div className={classes.head}>
                 <div className={classes.lists} >
                     <ul className={classes.list}>
-                        <li><Link to='/HOME' className={classes.link}>HOME</Link></li>
+                        <li><Link to='/' className={classes.link}>HOME</Link></li>
                         <li><Link to='/ABOUT' className={classes.link}>ABOUT</Link></li>
                         <li><Link to='/WORK' className={classes.link}>WORKS</Link></li>
                         <li><Link to='/CONTACT' className={classes.link}>CONTACT</Link></li>
