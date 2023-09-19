@@ -47,10 +47,7 @@
     transition: transform 500ms;
     height: 180px;
     object-fit: cover;
-
 }
-
-
 .warrper {
     overflow: hidden;
 }
