@@ -1,20 +1,26 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import classes from './Work.module.css';
 import Card from './Card';
 import React from 'react';
+import ErrorModal from './UIP1/ErrorModal';
 import img1 from './image/imgone.PNG';
 import img2 from './image/imgTwo.png';
 import img3 from './image/food.png';
-import { Route } from 'react-router-dom';
-import Daitls from './PageRoute/Dailts';
-import HeadRoute from './PageRoute/HeadRoute';
-import Prodome from './PageRoute/Prodome';
-import HeadProdome from './PageRoute/HeadProdome';
+
+
 
 
 
 
 const Project = (props) => {
+    const [CartOne, setCartOne] = useState(false);
+
+    const imgHandler = () => {
+        setCartOne(true)
+    }
+
+
+
     return (
         <Fragment>
             <div className={classes.parject}>
@@ -23,13 +29,10 @@ const Project = (props) => {
                     <div className={classes.warrper}>
                         <img src={img1} alt="" className={classes.imgone} />
                     </div>
-                    <div>
-                        <Route path="/info">
-                            <Daitls />
-
-                        </Route>
+                    <div className={classes.button}>
+                        <button className={classes.btn} onClick={imgHandler}>Read More</button>
                     </div>
-                    <HeadRoute />
+                    {CartOne && <ErrorModal />}
 
 
                 </Card>
@@ -37,12 +40,10 @@ const Project = (props) => {
                     <div className={classes.warrper}>
                         <img src={img2} alt="" className={classes.imgone} />
                     </div>
-                    <div>
-                        <Route path="/prodome">
-                            <Prodome />
-                        </Route>
+                    <div className={classes.button}>
+                        <button className={classes.btn}>Read More</button>
                     </div>
-                    <HeadProdome />
+
 
                 </Card>
                 <Card>
