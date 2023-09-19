@@ -2,13 +2,14 @@ import { Fragment } from 'react';
 import classes from './Work.module.css';
 import Card from './Card';
 import React from 'react';
-import img1 from './image/insta.PNG';
-import img2 from './image/dribble.PNG';
-import img3 from './image/hasnode.PNG';
+import img1 from './image/facbook.PNG';
+import img2 from './image/sunglass.png';
+import img3 from './image/netflix.PNG';
 
 
 
-const ProjectThree = (props) => {
+
+const ProjectFour = (props) => {
     return (
         <Fragment>
             <div className={classes.parject}>
@@ -45,4 +46,4 @@ const ProjectThree = (props) => {
         </Fragment>
     )
 }
-export default ProjectThree;
+export default ProjectFour;

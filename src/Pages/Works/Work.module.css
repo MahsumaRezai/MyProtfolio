@@ -25,16 +25,28 @@
     padding-top: 50px;
     gap: 20px
 }
+@media screen and (max-width:1500px){
+    .parject {
+        flex-direction: column
+    }
+}
+@media screen and (max-width:1024px){
+    .parject {
+        flex-direction: column
+    }
+}
+
 .card {
     background:#313131;
     width: fit-content;
     padding: 20px 20px 50px 20px;
-    box-shadow: 2px 2px 2px 2px  gainsboro
+    box-shadow: 5px 5px 5px 5px  gainsboro
 }
 .imgone {
     width: 300px;
     transition: transform 500ms;
-    height: 180px
+    height: 180px;
+    object-fit: cover;
 
 }
 
