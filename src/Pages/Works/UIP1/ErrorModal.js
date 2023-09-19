@@ -3,20 +3,25 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModal.module.css';
 import { Fragment } from 'react';
+import img from '../image/imgone.PNG'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }
 const Modaloerlay = (props) => {
     return (
         <Card className={classes.modal}>
-            <header className={classes.header}>
-                <h1>{props.title}</h1>
-            </header>
-            <div className={classes.content}>
-                <p>{props.massage}</p>
+            <div className={classes.head}>
+                <h1>Project information</h1>
             </div>
-            <footer className={classes.actions}>
-            </footer>
+            <div className={classes.content}>
+                <div className={classes.images}>
+                    <img src={img} alt="" className={classes.img} />
+                    <p>Project Name: React Data Contoller</p>
+                    <a href="https://github.com/MahsumaRezai/React_Projec">Github Link: https://github.com/MahsumaRezai/React_Project</a>
+
+                </div>
+            </div>
+
         </Card>
     )
 }

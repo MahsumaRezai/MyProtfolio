@@ -18,6 +18,9 @@ const Project = (props) => {
     const imgHandler = () => {
         setCartOne(true)
     }
+    const imgHandlerClose = () => {
+        setCartOne(false)
+    }
 
 
 
@@ -32,7 +35,7 @@ const Project = (props) => {
                     <div className={classes.button}>
                         <button className={classes.btn} onClick={imgHandler}>Read More</button>
                     </div>
-                    {CartOne && <ErrorModal />}
+                    {CartOne && <ErrorModal onconfirm={imgHandlerClose} />}
 
 
                 </Card>
