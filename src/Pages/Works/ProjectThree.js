@@ -9,7 +9,7 @@ import img3 from './image/food.png';
 
 
 
-const Project = (props) => {
+const ProjectThree = (props) => {
     return (
         <Fragment>
             <div className={classes.parject}>
@@ -24,7 +24,7 @@ const Project = (props) => {
                 </Card>
                 <Card>
                     <div className={classes.warrper}>
-                        <img src={img2} alt="" className={classes.imgone}/>
+                        <img src={img2} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
                         <button className={classes.btn}>Read More</button>
@@ -46,4 +46,4 @@ const Project = (props) => {
         </Fragment>
     )
 }
-export default Project;
+export default ProjectThree;
