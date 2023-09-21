@@ -6,6 +6,8 @@ import img1 from './image/fahsion.png';
 import img2 from './image/computer.png';
 import img3 from './image/music.png';
 import ErroModalThree from './UIP4/ErrorModalThree'
+import ErroModalTwo from './UIP5/ErrorModalTwo';
+import ErroModal from './UP6/ErrorModal';
 
 
 
@@ -57,7 +59,7 @@ const ProjectTwo = (props) => {
                     <div className={classes.button}>
                         <button className={classes.btn} onClick={imgHandlerTwo}>Read More</button>
                     </div>
-
+                    {CartTwo && <ErroModalTwo onconfirm={imgHandlerCloseTwo} />}
                 </Card>
                 <Card>
                     <div className={classes.warrper}>
@@ -68,6 +70,8 @@ const ProjectTwo = (props) => {
                     </div>
 
                 </Card>
+                {CartThree && <ErroModal onconfirm={imgHandlerCloseThree} />}
+
 
             </div>
 
