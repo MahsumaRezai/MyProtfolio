@@ -1,15 +1,41 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import classes from './Work.module.css';
 import Card from './Card';
 import React from 'react';
 import img1 from './image/fahsion.png';
 import img2 from './image/computer.png';
 import img3 from './image/music.png';
+import ErroModalThree from './UIP4/ErrorModalThree'
 
 
 
 
 const ProjectTwo = (props) => {
+    const [CartOne, setCartOne] = useState(false);
+    const [CartTwo, setCartTwo] = useState(false);
+    const [CartThree, setCartThree] = useState(false);
+
+
+    const imgHandler = () => {
+        setCartOne(true)
+    }
+    const imgHandlerClose = () => {
+        setCartOne(false)
+    }
+    const imgHandlerTwo = () => {
+        setCartTwo(true)
+    }
+    const imgHandlerCloseTwo = () => {
+        setCartTwo(false)
+    }
+
+    const imgHandlerThree = () => {
+        setCartThree(true)
+    }
+    const imgHandlerCloseThree = () => {
+        setCartThree(false)
+    }
+
     return (
         <Fragment>
             <div className={classes.parject}>
@@ -18,8 +44,10 @@ const ProjectTwo = (props) => {
                         <img src={img1} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandler}>Read More</button>
+
                     </div>
+                    {CartOne && <ErroModalThree onconfirm={imgHandlerClose} />}
 
                 </Card>
                 <Card>
@@ -27,7 +55,7 @@ const ProjectTwo = (props) => {
                         <img src={img2} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandlerTwo}>Read More</button>
                     </div>
 
                 </Card>
@@ -36,7 +64,7 @@ const ProjectTwo = (props) => {
                         <img src={img3} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandlerThree}>Read More</button>
                     </div>
 
                 </Card>
