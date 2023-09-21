@@ -3,6 +3,40 @@
     width: 70%;
     margin: auto;
     height: 500px;
-    padding-top: 50px
+    padding-top:100px;
+    padding-bottom: 100px
 
+
+}
+.img {
+    width: 50px;
+    border-radius: 30px;
+    border: 5px solid  gainsboro;
+    padding: 5px
+
+}
+.warrp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    color: white
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+        
+}
+.maintitle {
+    font-size: 40px;
 }
