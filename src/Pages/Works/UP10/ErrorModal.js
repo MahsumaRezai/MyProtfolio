@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModal.module.css';
 import { Fragment } from 'react';
-import img from '../image/imgone.PNG'
+import img from '../image/facbook.PNG'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }
@@ -16,8 +16,8 @@ const Modaloerlay = (props) => {
             <div className={classes.content}>
                 <div className={classes.images}>
                     <img src={img} alt="" className={classes.img} />
-                    <p className={classes.text}>Project Name: React Data Contoller</p>
-                    <a className={classes.link} href="https://github.com/MahsumaRezai/React_Projec">Github Link: https://github.com/MahsumaRezai/React_Project</a>
+                    <p className={classes.text}>Project Name: Login Page</p>
+                    <a className={classes.link} href="https://github.com/MahsumaRezai/login_pages_collection">Github Link: https://github.com/MahsumaRezai/login_pages_collection</a>
 
                 </div>
             </div>

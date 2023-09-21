@@ -17,7 +17,9 @@ const Modaloerlay = (props) => {
                 <div className={classes.images}>
                     <img src={img} alt="" className={classes.img} />
                     <p className={classes.text}>Project Name: Time Mangment</p>
-                    <a className={classes.link} href="https://github.com/MahsumaRezai/React_Projec">Github Link: https://github.com/MahsumaRezai/React_Project</a>
+                    <a className={classes.link} href="https://github.com/MahsumaRezai/Pomodoro
+">Github Link: https://github.com/MahsumaRezai/Pomodoro
+</a>
 
                 </div>
             </div>

@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModalThree.module.css';
 import { Fragment } from 'react';
-import img from '../image/food.png'
+import img from '../image/netflix.PNG'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }
@@ -16,8 +16,8 @@ const Modaloerlay = (props) => {
             <div className={classes.content}>
                 <div className={classes.images}>
                     <img src={img} alt="" className={classes.img} />
-                    <p className={classes.text}>Project Name: Food </p>
-                    <a className={classes.link} href="https://github.com/MahsumaRezai/React_Projec">Github Link: https://github.com/MahsumaRezai/React_Project</a>
+                    <p className={classes.text}>Project Name: Netflix </p>
+                    <a className={classes.link} href="https://github.com/MahsumaRezai/Netflix_singin">Github Link: https://github.com/MahsumaRezai/Netflix_singint</a>
 
                 </div>
             </div>
