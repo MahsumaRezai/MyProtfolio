@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModalTwo.module.css';
 import { Fragment } from 'react';
-import img from '../image/imgTwo.png'
+import img from '../image/dribble.PNG'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }

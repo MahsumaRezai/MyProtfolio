@@ -1,14 +1,44 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import classes from './Work.module.css';
 import Card from './Card';
 import React from 'react';
 import img1 from './image/insta.PNG';
 import img2 from './image/dribble.PNG';
 import img3 from './image/hasnode.PNG';
+import ErroModal from './UP7/ErrorModal';
+import ErrorModalTwo from './UP8/ErrorModalTwo';
+import ErrorModalThree from './UP9/ErrorModalThree'
+
 
 
 
 const ProjectThree = (props) => {
+    const [CartOne, setCartOne] = useState(false);
+    const [CartTwo, setCartTwo] = useState(false);
+    const [CartThree, setCartThree] = useState(false);
+
+
+    const imgHandler = () => {
+        setCartOne(true)
+    }
+    const imgHandlerClose = () => {
+        setCartOne(false)
+    }
+    const imgHandlerTwo = () => {
+        setCartTwo(true)
+    }
+    const imgHandlerCloseTwo = () => {
+        setCartTwo(false)
+    }
+
+    const imgHandlerThree = () => {
+        setCartThree(true)
+    }
+    const imgHandlerCloseThree = () => {
+        setCartThree(false)
+    }
+
+
     return (
         <Fragment>
             <div className={classes.parject}>
@@ -17,8 +47,9 @@ const ProjectThree = (props) => {
                         <img src={img1} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandler}>Read More</button>
                     </div>
+                    {CartOne && <ErroModal onconfirm={imgHandlerClose} />}
 
                 </Card>
                 <Card>
@@ -26,8 +57,9 @@ const ProjectThree = (props) => {
                         <img src={img2} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandlerTwo}>Read More</button>
                     </div>
+                    {CartTwo && < ErrorModalTwo onconfirm={imgHandlerCloseTwo} />}
 
                 </Card>
                 <Card>
@@ -35,8 +67,9 @@ const ProjectThree = (props) => {
                         <img src={img3} alt="" className={classes.imgone} />
                     </div>
                     <div className={classes.button}>
-                        <button className={classes.btn}>Read More</button>
+                        <button className={classes.btn} onClick={imgHandlerThree} >Read More</button>
                     </div>
+                    {CartThree && <ErrorModalThree onconfirm={imgHandlerCloseThree} />}
 
                 </Card>
 

@@ -3,7 +3,7 @@ import ReactDom from 'react-dom';
 import Card from './Card';
 import classes from './ErrorModalThree.module.css';
 import { Fragment } from 'react';
-import img from '../image/food.png'
+import img from '../image/hasnode.PNG'
 const Backdrop = (props) => {
     return <div className={classes.backdrop} onClick={props.onconfirm} />
 }
