@@ -3,3 +3,14 @@
     background-color: whitesmoke;
     padding-bottom: 30px
 }
+.contact {
+    width: 100%;
+    background: url('./Works/image/overlay-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px 0px ;
+    
+
+
+}
