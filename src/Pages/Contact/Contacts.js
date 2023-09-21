@@ -6,9 +6,6 @@ import img2 from './image/twitter.png';
 import img3 from './image/gmail.png';
 import img4 from './image/link.png';
 
-
-
-
 const Contacts = (props) => {
     return (
         <Fragment>
@@ -31,15 +28,9 @@ const Contacts = (props) => {
                         </a>
                         <a href="https://www.linkedin.com/in/masoumeh-rezai-99826a262/">
                             <img src={img4} alt="" className={classes.img} />
-
                         </a>
-
-
-
                     </div>
                 </div>
-
-
             </div>
         </Fragment>
     )
