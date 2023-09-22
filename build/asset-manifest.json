@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5c5ba25.css",
+    "main.js": "/static/js/main.152a5527.js",
+    "static/media/fahsion.png": "/static/media/fahsion.1bf109d3ed47beca327c.png",
+    "static/media/music.png": "/static/media/music.96abb1edab3490349753.png",
+    "static/media/insta.PNG": "/static/media/insta.bc02d24c9a06ee60db99.PNG",
+    "static/media/sunglass.png": "/static/media/sunglass.8a4d6276920ad90dc891.png",
+    "static/media/dribble.PNG": "/static/media/dribble.d364748499144e0a8722.PNG",
+    "static/media/food.png": "/static/media/food.6729da617142405a2e55.png",
+    "static/media/computer.png": "/static/media/computer.fc8a8546714815a6733f.png",
+    "static/media/overlay-bg.jpg": "/static/media/overlay-bg.6ca4a5c5d5345f4fc1f6.jpg",
+    "static/media/hasnode.PNG": "/static/media/hasnode.825e6e53fe966b2836a5.PNG",
+    "static/media/imgTwo.png": "/static/media/imgTwo.d4e7e6fc7fa95d449dc0.png",
+    "static/media/facbook.PNG": "/static/media/facbook.2e9565b30c9e71d6bbec.PNG",
+    "static/media/imgone.PNG": "/static/media/imgone.5f5e66578745e17c2573.PNG",
+    "static/media/netflix.PNG": "/static/media/netflix.f7b7489bfe3866dde1f6.PNG",
+    "static/media/profile.jpg": "/static/media/profile.88e394909969b1951064.jpg",
+    "index.html": "/index.html",
+    "main.a5c5ba25.css.map": "/static/css/main.a5c5ba25.css.map",
+    "main.152a5527.js.map": "/static/js/main.152a5527.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5c5ba25.css",
+    "static/js/main.152a5527.js"
+  ]
+}
